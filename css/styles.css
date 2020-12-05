@@ -1,0 +1,26 @@
+#title {
+  background-color: #ff4c68;
+}
+
+.container {
+  padding: 2rem;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
