@@ -26,6 +26,10 @@
   overflow: hidden;
 }
 
+#features {
+  padding: 5rem 0 5rem 0;
+}
+
 .download-button {
 margin: 5% 3% 5% 3%;
 }
@@ -35,10 +39,21 @@ max-width: 70%;
 transform: rotate(15deg);
 }
 
+.with-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.icon-settings {
+  color: #ff4c68;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
 h1 {
   font-family: 'Montserrat', 'sans-serif';
   font-weight: 900;
-  font-size: 3rem;
+  font-size: 4rem;
   line-height: 1.5;
   }
 
