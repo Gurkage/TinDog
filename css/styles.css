@@ -1,9 +1,35 @@
 #title {
   background-color: #ff4c68;
+
+  overflow: hidden;
 }
 
-.container {
-  padding: 2rem;
+.navbar {
+  padding: 2rem 2rem 6rem 2rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', 'sans-serif';
+}
+
+.nav-item {
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.btn {
+margin-left: 2rem;
+margin-right: 2rem;
+}
+
+.iphone {
+max-width: 80%;
+height: 600px;
+background: url('../images/iphone6.png');
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 h1 {
@@ -11,6 +37,7 @@ h1 {
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.5;
+  color: white;
 }
 
 h2 {
