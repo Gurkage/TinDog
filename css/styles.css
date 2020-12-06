@@ -27,6 +27,13 @@
   padding-bottom: 5%;
 }
 
+@media (max-width: 900px) {
+
+  #title {
+    height: 60rem;
+  }
+}
+
 #features {
   padding: 10% 20%;
 }
@@ -40,7 +47,7 @@
 }
 
 #press {
-  padding: 0% 10% 0% 10%;
+  padding: 0 10% 0 10%;
   background-color: #ff4c68;
   color: white;
   text-align: center;
