@@ -1,47 +1,10 @@
-.body {
-  font-family: 'Montserrat', 'sans-serif';
-  }
-
-.navbar {
-  padding-bottom: 4.5rem;
-  padding-left: 0;
-  padding-right: 0;
-  }
-
-.navbar-brand {
-  font-size: 2.5rem;
-  font-family: 'Ubuntu', 'sans-serif';
-  font-weight: bold;
-}
-
-.nav-item {
-  font-size: 2rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
+/* ID Selectors */
 
 #title {
   background-color: #ff4c68;
   color: white;
   overflow: hidden;
-  padding-bottom: 5%;
-}
-
-@media (max-width: 991px) {
-
-  #title {
-    height: 60rem;
-    text-align: center;
-  }
-  .iphone {
-    margin-top: 10%;
-    position: absolute;
-    left: 4rem;
-  }
-  .download-button-row {
-    justify-content: center;
-  }
-
+  padding-bottom: 20%;
 }
 
 #features {
@@ -53,7 +16,6 @@
   color: white;
   padding: 10% 20% 5% 20%;
   text-align: center;
-
 }
 
 #press {
@@ -80,6 +42,31 @@
     background-color: white;
     text-align: center;
     }
+
+  /* Class Selectors */
+
+.body {
+  font-family: 'Montserrat', 'sans-serif';
+  }
+
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+  padding-right: 0;
+  }
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', 'sans-serif';
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 
 .download-button {
 margin: 1%;
@@ -169,4 +156,23 @@ h3 {
 p {
   color: #8f8f8f;
   line-height: 1.5;
+}
+
+/* Media Selectors */
+
+@media (max-width: 991px) {
+
+  .iphone {
+    margin-top: 10%;
+    position: static;
+    transform: none;
+  }
+  #title {
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  .download-button-row {
+    justify-content: center;
+  }
+
 }
