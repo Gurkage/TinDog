@@ -39,19 +39,19 @@
 }
 
 #press {
-  padding: 0% 20% 0% 20%;
+  padding: 0% 10% 0% 10%;
   background-color: #ff4c68;
   color: white;
   text-align: center;
   }
 
 #pricing {
-  padding: 5% 20% 5% 20%;
+  padding: 5% 10% 5% 10%;
   text-align: center;
 }
 
 #cta {
-  padding: 0% 20% 0% 20%;
+  padding: 10% 20% 10% 20%;
   background-color: #ff4c68;
   color: white;
   text-align: center;
@@ -61,10 +61,6 @@
     padding: 1% 20% 0 20%;
     background-color: white;
     text-align: center;
-    }
-
-    #cta {
-      padding: 3% 20% 0 20%;
     }
 
 .download-button {
@@ -118,6 +114,10 @@ transform: rotate(15deg);
 
 .pricing-header {
   padding-bottom: 3rem;
+}
+
+.pricing-card {
+  margin-bottom: 2rem;
 }
 
 i:hover {
