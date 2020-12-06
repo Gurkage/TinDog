@@ -71,6 +71,10 @@
 margin: 5% 3% 10% 3%;
 }
 
+.other-download-button {
+margin: 5% 3% 5% 3%;
+}
+
 .iphone {
 max-width: 70%;
 transform: rotate(15deg);
