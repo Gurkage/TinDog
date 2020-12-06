@@ -106,8 +106,18 @@ transform: rotate(15deg);
   margin: 20px 20px 50px;
 }
 
-.sub-button {
+.sub-button-outline {
   color: #ff4c68;
+  border-color: #ff4c68;
+}
+
+.sub-button-full {
+  background-color: #ff4c68;
+  border-color: #ff4c68;
+}
+
+.pricing-header {
+  padding-bottom: 3rem;
 }
 
 i:hover {
