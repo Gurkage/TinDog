@@ -27,11 +27,21 @@
   padding-bottom: 5%;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 991px) {
 
   #title {
     height: 60rem;
+    text-align: center;
   }
+  .iphone {
+    margin-top: 10%;
+    position: absolute;
+    left: 4rem;
+  }
+  .download-button-row {
+    justify-content: center;
+  }
+
 }
 
 #features {
@@ -72,7 +82,8 @@
     }
 
 .download-button {
-margin: 5% 3% 10% 3%;
+margin: 1%;
+
 }
 
 .other-download-button {
