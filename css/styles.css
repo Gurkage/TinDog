@@ -1,6 +1,6 @@
 .body {
   font-family: 'Montserrat', 'sans-serif';
-}
+  }
 
 .navbar {
   padding-bottom: 4.5rem;
@@ -27,11 +27,48 @@
 }
 
 #features {
-  padding: 5rem 0 5rem 0;
+  padding: 10% 20%;
 }
 
+#testimonials {
+  background-color: #ff4c68;
+  color: white;
+  padding: 10% 20% 5% 20%;
+  text-align: center;
+
+}
+
+#press {
+  padding: 0% 20% 0% 20%;
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  }
+
+#pricing {
+  padding: 5% 20% 5% 20%;
+  text-align: center;
+}
+
+#cta {
+  padding: 0% 20% 0% 20%;
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  }
+
+  #footer {
+    padding: 1% 20% 0 20%;
+    background-color: white;
+    text-align: center;
+    }
+
+    #cta {
+      padding: 3% 20% 0 20%;
+    }
+
 .download-button {
-margin: 5% 3% 5% 3%;
+margin: 5% 3% 10% 3%;
 }
 
 .iphone {
@@ -40,14 +77,37 @@ transform: rotate(15deg);
 }
 
 .with-padding {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .icon-settings {
   color: #ff4c68;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-quote {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.sub-button {
+  color: #ff4c68;
+}
+
+i:hover {
+  color: #ff0d33;
 }
 
 h1 {
@@ -64,7 +124,11 @@ h2 {
 }
 
 h3 {
-  font-family: 'Ubuntu', 'sans-serif';
-  font-size: 1.5rem;
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 2rem;
   line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
 }
