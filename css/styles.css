@@ -24,6 +24,7 @@
   background-color: #ff4c68;
   color: white;
   overflow: hidden;
+  padding-bottom: 5%;
 }
 
 #features {
@@ -74,6 +75,8 @@ margin: 5% 3% 0 3%;
 .iphone {
 max-width: 70%;
 transform: rotate(15deg);
+position: absolute;
+right: 10rem;
 }
 
 .with-padding {
