@@ -117,7 +117,7 @@ i:hover {
 h1 {
   font-family: 'Montserrat', 'sans-serif';
   font-weight: 900;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.5;
   }
 
@@ -129,7 +129,7 @@ h2 {
 
 h3 {
   font-family: 'Montserrat', 'sans-serif';
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   margin-top: 1rem;
   margin-bottom: 1rem;
