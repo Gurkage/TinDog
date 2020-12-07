@@ -15,40 +15,49 @@
   background-color: #ff4c68;
   color: white;
   padding: 10% 20% 5% 20%;
-  text-align: center;
 }
 
 #press {
-  padding: 0 10% 0 10%;
-  background-color: #ff4c68;
+    background-color: #ff4c68;
   color: white;
-  text-align: center;
   }
 
 #pricing {
   padding: 5% 10% 5% 10%;
-  text-align: center;
 }
 
 #cta {
   padding: 10% 20% 10% 20%;
   background-color: #ff4c68;
   color: white;
-  text-align: center;
   }
 
 #footer {
   padding-left: 20%;
   padding-right: 20%;
   background-color: white;
-  text-align: center;
+  }
+
+  /* Headings */
+
+  .big-heading {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .title-heading {
+    text-align: left;
+  }
+
+  .mid-heading {
+    font-family: 'Ubuntu', 'sans-serif';
+    font-size: 2rem;
+    line-height: 1.5;
   }
 
   /* Class Selectors */
-
-.body {
-  font-family: 'Montserrat', 'sans-serif';
-  }
 
 .navbar {
   padding-bottom: 4.5rem;
@@ -67,7 +76,6 @@
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
-
 
 .download-button {
 margin: 1%;
@@ -92,7 +100,7 @@ right: 10rem;
 
 .icon-settings {
   color: #ff4c68;
-  padding: 0;
+  padding-bottom: 2rem;
 }
 
 .testimonial-image {
@@ -108,7 +116,7 @@ right: 10rem;
 
 .press-logo {
   width: 90%;
-  margin: 20px 20px 50px;
+  margin: 2rem;
 }
 
 .sub-button-outline {
@@ -139,25 +147,13 @@ i:hover {
   color: #ff0d33;
 }
 
-h1 {
+body {
   font-family: 'Montserrat', 'sans-serif';
-  font-weight: 900;
-  font-size: 3rem;
-  line-height: 1.5;
-  }
-
-h2 {
-  font-family: 'Ubuntu', 'sans-serif';
-  font-size: 2rem;
-  line-height: 1.5;
+  text-align: center;
 }
 
-h3 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', 'sans-serif';
-  font-size: 1.5rem;
-  line-height: 1.5;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 p {
