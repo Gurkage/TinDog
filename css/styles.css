@@ -1,8 +1,6 @@
 /* ID Selectors */
 
 #title {
-  background-color: #ff4c68;
-  color: white;
   overflow: hidden;
   padding-bottom: 20%;
 }
@@ -12,52 +10,44 @@
 }
 
 #testimonials {
-  background-color: #ff4c68;
-  color: white;
-  padding: 10% 20% 5% 20%;
+  padding: 10% 20% 5%;
 }
 
-#press {
-    background-color: #ff4c68;
-  color: white;
-  }
-
 #pricing {
-  padding: 5% 10% 5% 10%;
+  padding: 5% 20% 5%;
 }
 
 #cta {
-  padding: 10% 20% 10% 20%;
+  padding: 10% 20% 10%;
+  }
+
+/* Sections */
+
+.color-section {
   background-color: #ff4c68;
   color: white;
-  }
+}
 
-#footer {
-  padding-left: 20%;
-  padding-right: 20%;
-  background-color: white;
-  }
+/* Headings */
 
-  /* Headings */
+.big-heading {
+  font-family: 'Montserrat', 'sans-serif';
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
 
-  .big-heading {
-    font-family: 'Montserrat', 'sans-serif';
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 1.5;
-  }
+.title-heading {
+  text-align: left;
+}
 
-  .title-heading {
-    text-align: left;
-  }
+.mid-heading {
+  font-family: 'Ubuntu', 'sans-serif';
+  font-size: 2rem;
+  line-height: 1.5;
+}
 
-  .mid-heading {
-    font-family: 'Ubuntu', 'sans-serif';
-    font-size: 2rem;
-    line-height: 1.5;
-  }
-
-  /* Class Selectors */
+/* Class Selectors */
 
 .navbar {
   padding-bottom: 4.5rem;
@@ -83,7 +73,7 @@ margin: 1%;
 }
 
 .other-download-button {
-margin: 5% 3% 0 3%;
+margin: 5% 3% 0;
 }
 
 .iphone {
